@@ -1,7 +1,7 @@
-My Movies & TV Shows (React)
+Hoseas Movie & TV Shows (React)
 
 Brief
-- A small React app to list favorite movies/TV shows, built with Vite.
+- A small React (Hooks) app to list favorite movies/TV shows, where user can add their movies and add rating.
 
 Features
 - View movies as cards (title, poster, description, rating).
@@ -14,11 +14,3 @@ Files of interest
 - `src/components/MovieCard.jsx` — individual movie card.
 - `src/components/Filter.jsx` — controls for title and rating filters.
 
-Run
-1. Install dependencies: `npm install`
-2. Start dev server: `npm run dev`
-3. Open the local URL (usually `http://localhost:5173`).
-
-Notes
-- The app uses React hooks (`useState`) for state management.
-- Changes are not persisted (no localStorage) — I can add that if you want.
